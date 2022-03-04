@@ -1,0 +1,25 @@
+{
+  "name": "slack-bolt-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "npm run build && npm run serve",
+    "build": "npm tsc",
+    "serve": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seipan1213/slack-bolt-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seipan1213/slack-bolt-bot/issues"
+  },
+  "homepage": "https://github.com/seipan1213/slack-bolt-bot#readme",
+  "dependencies": {
+    "@slack/bolt": "^3.10.0"
+  }
+}
